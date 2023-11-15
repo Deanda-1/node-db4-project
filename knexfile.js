@@ -11,7 +11,7 @@ module.exports = {
     development: {
         ...sharedConfig,
         connection: { filename: './data/cook_book.db3' },
-        
+        seeds: { directory: './data/seeds' },
     },
     testing: {
         ...sharedConfig,
